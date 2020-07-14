@@ -1,0 +1,35 @@
+
+Targets the error class with a div parent.
+div .error{
+  color: purple;
+}
+
+Targets the div of the error class.
+div.error{
+  color: purple;
+}
+
+Targets the div of the content id.
+div#content {
+  background-color: #ebebeb;
+}
+
+Targets the a with a href property containing thenetninja
+a[href*="thenetninja"]{
+  background-color: #3dd13d;
+}
+
+Targets the a with a href property ending with .com
+a[href$=".com"]{
+  background-color: red;
+}
+
+The p tag inherits border from the div.
+div{
+  border: 1px solid gray;
+  margin: 40px;
+}
+p{
+  border: inherit;
+  margin: inherit;
+}
